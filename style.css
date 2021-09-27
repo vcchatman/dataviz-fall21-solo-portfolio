@@ -1,12 +1,18 @@
-h1 {
-    color: blue
+.box {
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+
+.img-specs {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (min-width: 40em) {
-    body {
-        display: grid;
-        grid-gap: 1em;
-        grid-template-rows: auto auto 1fr auto;
-        min-height: 100vh;
-    }
+.center {
+    text-align: center;
+    margin: auto;
 }
